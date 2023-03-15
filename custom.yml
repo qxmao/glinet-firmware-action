@@ -7,8 +7,6 @@ feeds:
 packages:
   - luci-app-mwan3
   - luci-app-ssr-plus
-  - luci-app-ps3netsrv
-  - luci-app-usb-printer
   
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
