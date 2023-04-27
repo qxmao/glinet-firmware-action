@@ -6,9 +6,25 @@ feeds:
     branch: master
 packages:
   - luci-app-mwan3
+  - luci-app-password2
+  - luci-app-ssr-plus
+  - luci-app-alist
+  - luci-app-aliyundrive-webdav
+  - luci-app-ddnsto
+  - luci-app-docker
+  - luci-app-ttyd
+  - luci-app-uugamebooster
+  - luci-app-zerotier
 
-
-
+feeds:
+  - name: custom
+    path: ../feeds_dir/custom
+  - name: openclash
+    uri: https://github.com/vernesong/OpenClash
+    branch: master
+packages:
+  - luci-app-openclash
+ 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
   CONFIG_PACKAGE_wpad=n
